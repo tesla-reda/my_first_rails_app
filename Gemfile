@@ -3,6 +3,7 @@ source 'https://rubygems.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.10'
+#gem 'ruby', '2.4.5'   #i add this cmd
 # Use sqlite3 as the database for Active Record
 group :development, :test do
   gem 'sqlite3'
@@ -11,7 +12,7 @@ end
 group :production do
   gem 'pg', '~> 0.15'
   #gem 'pg'  #'1.1.3'#'0.15.1'
-  #gem 'rails_12factor'
+  gem 'rails_12factor'
 end
 #gem 'sqlite3'
 #gem 'pg' #outside production
